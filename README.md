@@ -29,8 +29,7 @@ int main() {
     gcc -o hello hello.c
     ```
 
-- `g++` is a program that calls `gcc` with the `-lstdc++` flag, which links against the C++ standard library.
-
+- `g++` has additional behaviours in it specific to c++, such that it can compile and link a c++ program out of the box
     to compile a C program:
 
     ```bash
